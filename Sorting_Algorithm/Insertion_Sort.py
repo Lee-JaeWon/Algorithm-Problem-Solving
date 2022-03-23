@@ -1,6 +1,3 @@
-# 2022년도 1학기 알고리즘 수업 - 과제 03
-# 2020741051 - 이재원(로봇학부)
-
 import random
 from timeit import default_timer as timer
 
