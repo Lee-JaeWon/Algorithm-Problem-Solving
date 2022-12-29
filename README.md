@@ -5,6 +5,6 @@
 
 `C++/` : C++로 작성한 문제  
 `Python/` : Python으로 작성한 문제  
-`Python_Practice/` : Python 연습  
+`Sorting_Algorithm` : Sorting 연습  
 
-주로 Python으로 문제풀이
+C++로 코딩테스트 준비.
