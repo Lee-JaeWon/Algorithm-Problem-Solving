@@ -38,14 +38,13 @@ int main(int argc, char **argv)
         int start = 0;   // index
         int end = N - 1; // index
         int mid = 0;
-        // std::cout << "comp[i]:" << comp[i] << "\n";
         int temp_res = 0;
 
         while (start <= end)
         {
             int mid = (start + end) / 2;
             temp_res = sang[mid];
-            if (sang[mid] == comp[i]) 
+            if (sang[mid] == comp[i])
             {
                 break;
             }
@@ -57,9 +56,7 @@ int main(int argc, char **argv)
             {
                 end = mid - 1;
             }
-            // std::cout << "sang[mid] in while : " << sang[mid] << "\n";
         }
-        // std::cout << "comp[i] : " << comp[i] << "temp_res : " << temp_res << "\n";
         if (temp_res == comp[i])
         {
             std::cout << "1 ";
